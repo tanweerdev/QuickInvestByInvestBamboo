@@ -6,7 +6,7 @@ defmodule QuickInvestWeb.Endpoint do
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
-    key: "_operational_task_key",
+    key: "_quick_invest_key",
     signing_salt: "xmdVyVQ4",
     same_site: "Lax"
   ]
