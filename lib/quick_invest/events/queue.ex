@@ -33,7 +33,7 @@ defmodule QuickInvest.Events.Queue do
   @doc """
   Consume/extract event from queue
   """
-  @spec consume() :: map()
+  @spec consume() :: map() | nil
   def consume() do
     GenServer.call(__MODULE__, :consume)
   end

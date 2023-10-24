@@ -5,7 +5,7 @@ config :quick_invest, QuickInvest.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost",
-  database: "operational_task_dev",
+  database: "quick_invest_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
